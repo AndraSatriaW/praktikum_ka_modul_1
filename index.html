@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan Deploy Vercel</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-900 text-white min-h-screen flex flex-col justify-center items-center p-6">
+
+    <main class="max-w-md w-full bg-slate-800 rounded-2xl p-8 shadow-xl border border-slate-700 text-center">
+        <!-- Badge Status -->
+        <span class="inline-block bg-emerald-500/10 text-emerald-400 text-xs font-semibold px-3 py-1 rounded-full border border-emerald-500/20 mb-4">
+            🚀 Status: Ready to Deploy
+        </span>
+
+        <!-- Judul -->
+        <h1 class="text-3xl font-bold mb-3 text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-teal-400">
+            Halo, Vercel!
+        </h1>
+
+        <!-- Deskripsi -->
+        <p class="text-slate-300 text-sm mb-6 leading-relaxed">
+            Ini adalah halaman web statis sederhana untuk mencoba alur *deployment* cepat menggunakan platform Vercel.
+        </p>
+
+        <!-- Informasi Langkah -->
+        <div class="bg-slate-900/50 rounded-xl p-4 text-left border border-slate-700/50 mb-6 text-xs text-slate-400 space-y-2">
+            <p><strong class="text-slate-200">Langkah selanjutnya:</strong></p>
+            <ol class="list-decimal list-inside space-y-1">
+                <li>Simpan file ini dengan nama <code class="text-teal-300">index.html</code></li>
+                <li>Push proyek ini ke GitHub / GitLab</li>
+                <li>Hubungkan repositori ke akun Vercel kamu</li>
+            </ol>
+        </div>
+
+        <!-- Tombol Aksi -->
+        <a href="https://vercel.com/docs" target="_blank" rel="noopener noreferrer" 
+           class="inline-block w-full bg-teal-500 hover:bg-teal-400 text-slate-950 font-semibold py-2.5 px-4 rounded-xl transition duration-200 shadow-lg shadow-teal-500/20">
+            Baca Dokumentasi Vercel
+        </a>
+    </main>
+
+    <footer class="mt-8 text-xs text-slate-500">
+        Dibuat untuk latihan web statis
+    </footer>
+
+</body>
+</html>
